@@ -12,7 +12,7 @@ Output Format:
 Print ‘n’ lines having two values: First, the position of student in the class and second his name.
 
 Constraints:
-1 <= n <= 10^5
+1 <= n <= 10^4
 0 <= m1, m2, m3 <= 100
 
 Sample Input:
@@ -27,7 +27,7 @@ Sample Output:
 3 Rishabh
 */
 
-//Code
+//Code in C++ -> O(n2)
 #include<bits/stdc++.h>
 using namespace std;
 struct student{
